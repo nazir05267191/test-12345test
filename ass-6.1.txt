@@ -1,0 +1,206 @@
+    REVERSE NO.:
+10.#include <stdio.h>
+
+int main()
+{
+    int n,revers,sum=0;
+    printf("enter the given number");
+    scanf("%d",&n);
+    while(n>0){
+    
+        revers=n%10;
+        sum=sum*10+revers;
+        n=n/10;
+        printf("%d\n",sum);
+    
+         
+         
+    
+    }
+    return 0;
+}
+                                                             assignment-6:
+ factorial:
+9.
+#include <stdio.h>
+
+int main()
+{
+    int n,fact=1;
+    printf("enter the given number");
+    scanf("%d",&n);
+    for(int i=n;i>=1;i--){
+    
+    fact=fact*i;
+     
+    
+        printf("%d\n",fact);
+     
+         
+         
+    
+    }
+    return 0;
+}
+ Sum of natural no.:
+1.include <stdio.h>
+
+int main()
+{
+    int n,sum=0;
+    printf("enter the given natural number");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+    
+    sum=sum+i;
+     
+    
+        printf("%d\n",sum);
+     
+         
+         
+    
+    }
+    return 0;
+}
+ SUM OF SQUAR NO.
+4.#include <stdio.h>
+
+int main()
+{
+    int n,sumsq=0;
+    printf("enter the given natural number");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+    
+    sumsq=sumsq+i*i;
+     
+    
+        printf("%d\n",sumsq);
+     
+         
+         
+    
+    }
+    return 0;
+}
+SUM OF CUBE NO.
+5.#include <stdio.h>
+
+int main()
+{
+    int n,sumcube=0;
+    printf("enter the given natural number");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+    
+    sumcube=sumcube+i*i*i;
+     
+    
+        printf("%d\n",sumcube);
+     
+         
+         
+    
+    }
+    return 0;
+}
+SUM OF EVEN NO.:
+2.#include <stdio.h>
+
+int main()
+{
+    int n,sum=0;
+    printf("enter the given natural number");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+            if(i%2==0)
+    sum= sum+i;
+     
+    
+        printf("%d\n",sum);
+     
+         
+         
+    
+    }
+    return 0;
+}
+SUM OF ODD NO.  :
+3.#include <stdio.h>
+
+int main()
+{
+    int n,sum=0;
+    printf("enter the given natural number");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+            if(i%2!=0)
+    sum= sum+i;
+     
+    
+        printf("%d\n",sum);
+     
+         
+         
+    
+    }
+    return 0;
+}
+ PRIME NO.  :
+8.#include <stdio.h>
+
+int main()
+{
+    int n,count=0;
+    printf("enter the given natural number");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+            if(n%i==0){
+        
+                count++;
+                 printf("%d\n",count);
+            }
+    }
+         if(count==2)
+         printf(" prime");
+         else
+         printf("non prime");
+
+    return 0;
+}
+COUNT NO.IN GIVEN DIGIT NO.:
+7.#include <stdio.h>
+
+int main()
+{
+    int n,count=0;
+    printf("enter the given natural number");
+    scanf("%d",&n);
+       while(n>0){
+                count++;
+               n=n/10;
+              
+            }
+         printf("%d\n",count);
+
+    return 0;
+}
+LCM OF TWO NO. :
+9.#include <stdio.h>
+
+int main()
+{
+    int a,b,l;
+    printf("enter the given natural number");
+    scanf("%d%d",&a,&b);
+             for (l=1;l<=a*b;l++){
+                   if(l%a==0&&l%b==0)
+                    break;
+               
+              
+            }
+         printf("LCM is%d\n",l);
+
+    return 0;
+}
